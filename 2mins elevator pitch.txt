@@ -1,0 +1,52 @@
+'use client'
+
+import React from "react"
+import Image from "next/image"
+import me from '../Image/me.jpg'
+import { IoCall } from "react-icons/io5";
+import { IoLogoWhatsapp } from "react-icons/io";
+import { FaUserCircle } from "react-icons/fa";
+import { VscVerifiedFilled } from "react-icons/vsc";
+import { FaReact } from "react-icons/fa6";
+import { MdMarkEmailUnread } from "react-icons/md";
+
+
+
+const HomeSectionThree=()=>{
+
+    return(
+        <div className="px-[5rem] py-40">
+            <section className="flex ">
+                <div className="pt-10">
+                    <p className="bg-gradient-to-r from-zinc-900 to-orange-800 bg-clip-text text-transparent font-medium text-lg">Umukoro Oghenevwede Louis is a Nigerian with a strong foundation  in both tech and business. <br /> He graduated from Delta State University in the year 2010 with a B.sc degree in Chemistry, and <br /> he has spent the last nine years at STACO Insurance plc, where he gained extensive experience  across <br /> marketing, claims management, underwriting, and IT support.  This diverse background has not only <br /> sharpened his analytical  and problem-solving skills but also given him a deep understanding of the <br /> intersection between technology and business.</p>
+
+                    <p className="pt-8 font-medium bg-gradient-to-r from-zinc-900 to-orange-800 bg-clip-text text-transparent text-lg">Now, he is excited to be transitioning into a new chapter of his life as a web developer. His experience <br /> in troubleshooting IT systems and understanding user needs has fueled his passion for building digital <br /> solutions that are both functional and user-friendly. He is very eager to leverage his unique blend of skills <br /> to create innovative web applications that drive business growth and enhance user experiences. He is a <br />Father to 2 wonderful boys, and he has a passion for traveling, swimming, hiking and hashing.</p>
+                </div>
+
+
+
+                <div className="ml-auto">
+                    <Image src={me} width={0} height={0} alt="image" className="rounded-full w-52"/>
+                    <ul className=" pt-1 ">
+                        <li className="flex items-center justify-center text-xl gap-1 "><FaUserCircle />Louis O. Umukoro</li>
+                        <li className="flex items-center justify-center  gap-1  "><VscVerifiedFilled />Insurance Agent</li>
+                        <li className="flex items-center justify-center gap-1 "><FaReact />Mern Stack Developer</li>
+                        <li className="flex items-center justify-center gap-1 "><IoCall />0916-466-7394</li>
+                        <li className="flex items-center justify-center gap-1 "><span className="text-green-600"><IoLogoWhatsapp /></span>0808-180-8904</li>
+                        <li className="flex items-center  justify-center gap-1 "><MdMarkEmailUnread />wedevilleg@gmail.com</li>
+                    </ul>
+                </div>
+        
+            </section>
+
+
+        </div>
+    )
+
+
+
+};
+
+export default HomeSectionThree;
+
+
