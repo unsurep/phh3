@@ -1,5 +1,7 @@
 'use client'
 
+
+import AboutPage from "@/components/AboutPage/AboutPage";
 import Link from "next/link";
 import { FaArrowUp } from "react-icons/fa";
 
@@ -11,7 +13,7 @@ const Page=()=>{
     return(
         <>
             <section>
-                <Aboutpage/>
+                <AboutPage/>
 
                 {/* scroll to the top */}
                 <Link href='#top'>
