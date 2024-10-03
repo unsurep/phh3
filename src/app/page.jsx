@@ -1,11 +1,8 @@
 
 
 import React from "react";
-import Image from "next/image";
 import HomeSectionOne from "@/components/HomeSections/HomeSectionOne";
 import HomeSectionTwo from "@/components/HomeSections/HomeSectionTwo";
-import { useState,useEffect } from "react";
-import Navbar from "@/components/Navbar";
 import HomeSectionThree from "@/components/HomeSections/HomeSectionThree";
 import Link from "next/link";
 import { FaArrowUp } from "react-icons/fa";
