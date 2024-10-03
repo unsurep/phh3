@@ -1,4 +1,4 @@
-'use client'
+
 
 import React from "react";
 import Image from "next/image";
@@ -15,15 +15,12 @@ const Home=()=>{
   
 
   return(
-    < >
+    <>
       <section>
      
        <HomeSectionOne/>
        <HomeSectionTwo/>
        <HomeSectionThree/>
-
-
-
 
         {/* scroll to the top */}
         <Link href='#top'>
