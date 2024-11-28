@@ -2,7 +2,7 @@
 
 import React from "react"
 import Image from "next/image"
-import logo from './Image/logo1.jpg'
+import logo from './Image/logo.png'
 import { IoHome } from "react-icons/io5";
 import { BiSolidBookReader } from "react-icons/bi";
 import { RiSettings2Fill } from "react-icons/ri";
@@ -27,7 +27,7 @@ const Navbar=({toggleDarkMode, isDark})=>{
 
     return(
         <div className="">
-            <nav className="flex    justify-between bg-white  items-center px-[1rem] lg:px-[5rem]  py-[1rem] w-full    z-50 fixed shadow-lg shadow-red-600">
+            <nav className="flex justify-between bg-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] bg-opacity-45 backdrop-blur-xl  items-center px-[1rem] lg:px-[5rem] py-[1rem] w-full z-50 fixed ">
 
                 <Link href={'/'}>
                     <div>
